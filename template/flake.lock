@@ -6,42 +6,43 @@
         "nixpkgs-unstable": "nixpkgs-unstable"
       },
       "locked": {
-        "lastModified": 1679105579,
-        "narHash": "sha256-kZt7NgsfZPWih8LgbrNeDMvyOdAhE7tg/Hpnxrknj6w=",
-        "owner": "matthewbauer",
+        "lastModified": 1683502422,
+        "narHash": "sha256-IPgHD0spof03zTnExv8/ev/gGMttvipCD9I2IIWW9x4=",
+        "owner": "Darune",
         "repo": "nixiosk",
-        "rev": "d22c8f2e1836c21dcbde395f935b9c04215fdff0",
+        "rev": "e1c8bf1924ee3be006704747c4b51b4e50b9e3aa",
         "type": "github"
       },
       "original": {
-        "owner": "matthewbauer",
+        "owner": "Darune",
+        "ref": "nixos-22.11",
         "repo": "nixiosk",
         "type": "github"
       }
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1643525452,
-        "narHash": "sha256-40HOE5ZCQxD/RfvA1D/ysOQEtk+2YoGuRCkpn3udoLI=",
-        "owner": "matthewbauer",
+        "lastModified": 1683383741,
+        "narHash": "sha256-rAQSBnFGNKNomUUyVl+7v0tnp45677t4Ovlh9f57k6Q=",
+        "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "1ce86f6f346d0c55dc691df3e4f5a25940a4a9f3",
+        "rev": "adc7c6f1bbaa73cda26be2323353b63a05b42f61",
         "type": "github"
       },
       "original": {
-        "owner": "matthewbauer",
-        "ref": "kiosk-21.05",
+        "owner": "nixos",
+        "ref": "nixos-22.11",
         "repo": "nixpkgs",
         "type": "github"
       }
     },
     "nixpkgs-unstable": {
       "locked": {
-        "lastModified": 1643347846,
-        "narHash": "sha256-O0tyXF//ppRpe9yT1Uu5n34yI2MWDyY6ZiJ4Qn5zIkE=",
+        "lastModified": 1683408522,
+        "narHash": "sha256-9kcPh6Uxo17a3kK3XCHhcWiV1Yu1kYj22RHiymUhMkU=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "5bb20f9dc70e9ee16e21cc404b6508654931ce41",
+        "rev": "897876e4c484f1e8f92009fd11b7d988a121a4e7",
         "type": "github"
       },
       "original": {
@@ -53,16 +54,16 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1643525452,
-        "narHash": "sha256-40HOE5ZCQxD/RfvA1D/ysOQEtk+2YoGuRCkpn3udoLI=",
-        "owner": "matthewbauer",
+        "lastModified": 1683408522,
+        "narHash": "sha256-9kcPh6Uxo17a3kK3XCHhcWiV1Yu1kYj22RHiymUhMkU=",
+        "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "1ce86f6f346d0c55dc691df3e4f5a25940a4a9f3",
+        "rev": "897876e4c484f1e8f92009fd11b7d988a121a4e7",
         "type": "github"
       },
       "original": {
-        "owner": "matthewbauer",
-        "ref": "kiosk-21.05",
+        "owner": "nixos",
+        "ref": "nixos-unstable",
         "repo": "nixpkgs",
         "type": "github"
       }

@@ -8,8 +8,8 @@
 {
   description = "Example Nixiosk System";
 
-  inputs.nixiosk.url = "github:matthewbauer/nixiosk";
-  inputs.nixpkgs.url = "github:matthewbauer/nixpkgs?ref=kiosk-21.05";
+  inputs.nixiosk.url = "github:Darune/nixiosk/nixos-22.11";
+  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
   outputs = { self, nixiosk, nixpkgs }: let
 

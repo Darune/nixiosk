@@ -1,8 +1,8 @@
 {
   description = "Nix-based Kiosk systems";
 
-  inputs.nixpkgs.url = "github:matthewbauer/nixpkgs?ref=kiosk-21.05";
-  inputs.nixpkgs-unstable.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+  inputs.nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
 
   nixConfig = {
     substituters = [ "https://nixiosk.cachix.org" ];
@@ -10,6 +10,7 @@
   };
 
   outputs = { self, nixpkgs, nixpkgs-unstable }: let
+
     systems = [ "x86_64-linux" "x86_64-darwin" "aarch64-darwin" "aarch64-linux" ];
     forAllSystems = f: builtins.listToAttrs (map (name: { inherit name; value = f name; }) systems);
 
